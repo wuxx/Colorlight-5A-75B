@@ -20,6 +20,12 @@ Image Credit: [Anton Blanchard](https://twitter.com/antonblanchard/status/123177
 sudo openocd -s /usr/local/share/openocd -f buspirate-flash.cfg
 ```
 
+#### Programming Colorlight-5A-75B using CMSIS-DAP with OpenOCD:
+
+```
+sudo openocd -s /usr/local/share/openocd -f cmsisdap-flash.cfg
+```
+
 #### Programming Colorlight-5A-75B using STM32 + DirtyJTAG with UrJTAG:
 
 Programming Colorlight 5A-75B (15$ ECP5 FPGA board) with 2$ STM32 "Blue Pill"
